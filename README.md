@@ -15,19 +15,13 @@ estrutura.txt
 form.html
 humans.txt
 imagens
-  chrome-frame-bg.jpg
-  chrome-frame-botao.png
-  chrome-frame-fechar.png
-  chrome-frame-logo.png
 index.html
 js
   libs
-    cfinstall.js
     jquery-migrate.js
-    jquery.js
+    jquery-1.9.1.js
     modernizr-custom.js
     selectivizr.js
-    swfobject.js
   main.js
 sass
   _elementos.scss
@@ -42,6 +36,4 @@ sass
   tablet-templates.scss
   tablet.scss
   templates.scss
-swf
-  expressInstall.swf
 </pre>
