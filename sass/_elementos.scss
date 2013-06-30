@@ -29,13 +29,11 @@ $tamanho_textos: 12; // tamanho da fonte: 12px
   // image replacement
   .rpl { font: 0/0 a !important; color: transparent !important; }
 
-    @mixin rpl($width, $height, $image, $display: null) {
-
-      @if $display == block { display: block; }
-
+    @mixin rpl($width, $height, $image: null, $display: null) {
       width: $width;
       height: $height;
-      background: image-url('#{$image}') no-repeat;
+      @if $image != null { background: image-url('#{$image}') no-repeat; }
+      @if $display != null { display: $display; }
       @extend .rpl;
     }
 

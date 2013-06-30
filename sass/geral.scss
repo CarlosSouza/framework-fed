@@ -87,25 +87,6 @@
     button { margin-left: $largura_label + $padding_right_label; }
   } // form
 
-  // correções ie
-
-  /* linhas */
-  .lt-ie7 form ol li { height: 1%; overflow: hidden; }
-
-  /* listas internas */
-  .lt-ie8 {
-    form {
-      ol {
-        ol,
-        ul,
-        li li { display: inline; }
-      }
-    }
-  } // .lt-ie8
-
-  /* mensagem de erro */
-  .lt-ie7 form ol p.erro { display: inline; float: left; }
-
 
 /* ------- CLASSES ------- */
 
