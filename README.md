@@ -5,7 +5,7 @@ Framework FED.
 
 Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br.
 
-Resumo: SCSS (Compass) + Scripts locais + Aviso Chrome Frame + Responsive.
+Resumo: SCSS (Compass) + Scripts locais + Responsive.
 
 <pre>
 config.rb
@@ -21,7 +21,6 @@ js
     jquery-migrate.js
     jquery-1.9.1.js
     modernizr-custom.js
-    selectivizr.js
   main.js
 sass
   _elementos.scss
