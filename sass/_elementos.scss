@@ -29,10 +29,14 @@ $tamanho_textos: 12px;
   // image replacement
   .rpl { font: 0/0 a !important; color: transparent !important; }
 
-    @mixin rpl($width, $height, $image: null, $display: null) {
+    @mixin rpl($width, $height, $image: null, $display: null, $color: null, $position: null, $repeat: null) {
       width: $width;
       height: $height;
-      @if $image != null { background: image-url('#{$image}') no-repeat; }
+      @if $image != null { background-image: image-url('#{$image}'); }
+      @if $color != null { background-color: $color; }
+      @if $position != null { background-position: $position; }
+      @if $repeat != null { background-repeat: $repeat; }
+        @else { background-repeat: no-repeat; }
       @if $display != null { display: $display; }
       @extend .rpl;
     }
