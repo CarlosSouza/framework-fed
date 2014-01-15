@@ -42,3 +42,9 @@ sass
   * [GreenStock JS](https://github.com/greensock/GreenSock-JS): biblioteca de animação em JS, com performance superior a jQuery e ao próprio CSS3
   * [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup): plugin para criação de lightboxes em geral
   * [Packery](https://github.com/metafizzy/packery): gera layouts flexíveis baseados em conteúdo modular (ex: Pinterest)
+
+### Precisa de suporte para IE8 e inferiores?
+
+Lista de polyfills e recursos para que este framework se adeque a navegadores rudimentares:
+
+  * [css3-mediaqueries-js](https://code.google.com/p/css3-mediaqueries-js/) - Possibilita o uso de Media Queries em IE5+. Dicas de uso [neste artigo](http://coding.smashingmagazine.com/2011/08/10/techniques-for-gracefully-degrading-media-queries/).
