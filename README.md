@@ -18,7 +18,7 @@ js
     modernizr-custom.js
   main.js
   plugins.js
-sass
+scss
   _elementos.scss
   _fontes.scss
   _reset.scss
