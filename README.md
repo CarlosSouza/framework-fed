@@ -1,6 +1,6 @@
 # Framework FED
 
-## Padrão de organização dos arquivos
+## Estruturação
 
 *(?) - opcional*
 
@@ -47,4 +47,5 @@ sass
 
 Lista de polyfills e recursos para que este framework se adeque a navegadores rudimentares:
 
-  * [css3-mediaqueries-js](https://code.google.com/p/css3-mediaqueries-js/) - Possibilita o uso de Media Queries em IE5+. Dicas de uso [neste artigo](http://coding.smashingmagazine.com/2011/08/10/techniques-for-gracefully-degrading-media-queries/).
+  * [css3-mediaqueries-js](https://code.google.com/p/css3-mediaqueries-js/): Possibilita o uso de Media Queries em IE5+. Dicas de uso [neste artigo](http://coding.smashingmagazine.com/2011/08/10/techniques-for-gracefully-degrading-media-queries/)
+  * [jQuery Migrate](https://github.com/jquery/jquery-migrate/): Uso da versão atual do jQuery
