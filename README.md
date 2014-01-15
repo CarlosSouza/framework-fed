@@ -2,7 +2,7 @@
 
 ## Organização dos arquivos
 
-* (*) - opcional *
+*(*) - opcional*
 
 <pre>
 config.rb
