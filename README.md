@@ -3,7 +3,7 @@ framework-fed
 
 Framework FED.
 
-Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br.
+Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br (work in progress).
 
 Resumo: SCSS (Compass) + Scripts locais + Responsive.
 
@@ -18,7 +18,6 @@ imagens
 index.html
 js
   libs
-    jquery-migrate.js
     jquery-1.9.1.js
     modernizr-custom.js
   main.js
@@ -30,8 +29,6 @@ sass
   desktop.scss
   geral.scss
   impressao.scss
-  mobile-templates.scss
-  mobile.scss
   tablet-templates.scss
   tablet.scss
   templates.scss

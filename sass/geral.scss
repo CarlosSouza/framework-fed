@@ -5,7 +5,7 @@
   Projeto:
 
   --------------
-  PADRÕES DE CODIGO - Frameworks FED v4
+  PADRÕES DE CODIGO - Frameworks FED
   --------------
 
   Nossos projetos são desenvolvidos de acordo com um padrão de escrita.
@@ -16,7 +16,7 @@
 // @import "fontes"; // estilos web fonts
 // @import "compass"; // framework com diversos elementos de design
 @import "elementos"; // biblioteca de classes com estilos gerais
-@import "templates.css"; // estilos específicos dos templates
+@import "templates"; // estilos específicos dos templates
 
 
 /*
@@ -33,59 +33,6 @@
 
   html { font: 100% Arial, Helvetica, sans-serif; color: $cor_textos; }
   body { background-color: $cor_body; font-size: em($tamanho_textos, 16px); }
-
-
-  /* formulário */
-  form {
-    $largura_label: 100px;
-    $padding_right_label: 10px;
-
-    #instrucoes-formulario { padding: 1.66em 0;
-      p { margin-bottom: .83em;
-        &:last-child { margin-bottom: 0; }
-      }
-    }
-
-    ol, ul { list-style: none; }
-
-    ol {
-      li { margin-bottom: .41em; padding: .41em 0; }
-
-      /* label */
-      label,
-      p,
-      ol li:first-child label { float: left; width: $largura_label; padding-right: $padding_right_label; line-height: 2em; text-align: right; }
-
-      /* label interno */
-      li li label,
-      p.erro,
-      li.confirmacao label { float: none; width: auto; padding-right: 0; text-align: left; }
-      ul li label { margin-right: 0; }
-
-      /* listas internas */
-      ol,
-      ul,
-      li li { display: inline-block; vertical-align: top; }
-      li li { margin: 0 10px 0 0; padding: 0; }
-    }
-
-    /* mensagem de erro */
-    ol p.erro { display: block; }
-    p.erro,
-    ol li.erro { color: #e33; }
-    li.erro { border-radius: 3px; }
-    li.erro,
-    input.erro,
-    textarea.erro { background-color: #f7cac9; }
-    ol li li p.erro { margin-left: 0; }
-
-    /* margin left de alinhamento com os campos */
-    #instrucoes-formulario,
-    ol li p.erro,
-    ol ol li:first-child p.erro,
-    ol li.confirmacao label,
-    button { margin-left: $largura_label + $padding_right_label; }
-  } // form
 
 
 /* ------- CLASSES ------- */
@@ -150,3 +97,23 @@
 } // .rodape
 
 
+/*
+  --------------
+  TABLET - Dispositivos com telas intermediárias
+  --------------
+*/
+
+@media only screen and (min-width: $bp-med) {
+  
+}
+
+
+/*
+  --------------
+  DESKTOP - Dispositivos com telas maiores
+  --------------
+*/
+
+@media only screen and (min-width: $bp-large) {
+  
+}
