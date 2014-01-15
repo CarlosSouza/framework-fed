@@ -1,7 +1,5 @@
 # Framework FED
 
-Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br (*work in progress*).
-
 ## Organização dos arquivos
 
 * (*) - opcional *
