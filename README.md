@@ -28,7 +28,7 @@ sass
   templates.scss
 </pre>
 
-### Features
+## Features
 
   * Simples. Ao contrário da grande variedade de *frameworks* presentes no mercado, o **Framework FED** preza pela simplicidade e flexibilidade uso, sem engessar a forma como os layouts são montados.
   * Todo construído com base no pré-processador SASS, separando o código de desenvolvimento daquele gerado para produção.
