@@ -1,9 +1,8 @@
 # Framework FED
-===============
 
 Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br (*work in progress*).
 
-# Organização dos arquivos
+## Organização dos arquivos
 
 * (*) - opcional *
 
@@ -31,7 +30,7 @@ sass
   templates.scss
 </pre>
 
-## Features
+### Features
 
   * Simples. Ao contrário da grande variedade de *frameworks* presentes no mercado, o Framework FED preza pela simplicidade e flexibilidade uso, sem engessar a forma como os layouts são montados.
   * Mobile First + *Responsive Web Design*: framework construído com lógica para ser escalado de acordo com as diferentes resoluções de tela. As regras gerais são usadas por todas as telas e, a medida que for necessário, novas regras são adicionadas para incrementar o layout.
@@ -39,7 +38,7 @@ sass
   * Compass: em conjunto com SASS, a biblioteca Compass adiciona diversos facilitadores para criação de elementos visuais de forma intuitiva.
   * Performance: por padrão, os arquivos CSS gerados são comprimidos, eliminando espaços e quebras de linha desnecessárias. Além disso, deixamos o código HTML preparado para que puxe o arquivo *plugins.js* visando a unificação de todos os plugins JavaScript utilizados no projeto.
 
-## Plugins recomendados
+### Plugins recomendados
 
   * [Swiper](https://github.com/nolimits4web/Swiper): carrossel de imagens e conteúdo preparado para touchscreen
   * [Adaptive Images](http://adaptive-images.com/): serve imagens de diferentes resoluções dependendo do dispositivo utilizado
