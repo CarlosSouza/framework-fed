@@ -1,6 +1,6 @@
 # Framework FED
 
-## Organização dos arquivos
+## Padrão de organização dos arquivos
 
 *(?) - opcional*
 
@@ -18,7 +18,7 @@ js
     jquery-1.10.2.js
     modernizr-custom.js
   main.js
-  plugins.js (?)
+  plugins.js
 sass
   _elementos.scss
   _fontes.scss
