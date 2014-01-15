@@ -9,7 +9,6 @@ config.rb
 /css
   fonts (?)
 estrutura.txt
-form.html
 humans.txt
 imagens
 index.html
