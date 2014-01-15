@@ -33,8 +33,7 @@ sass
   * Simples. Ao contrário da grande variedade de *frameworks* presentes no mercado, o **Framework FED** preza pela simplicidade e flexibilidade uso, sem engessar a forma como os layouts são montados.
   * Todo construído com base no pré-processador SASS, separando o código de desenvolvimento daquele gerado para produção.
   * Em conjunto com SASS, a biblioteca Compass adiciona diversos facilitadores para criação de elementos visuais de forma intuitiva.
-  * Mobile First + *Responsive Web Design*: framework desenvolvido com lógica para ser escalado de acordo com as diferentes resoluções de tela. As regras gerais são usadas por todas as telas e, a medida que for necessário, novas regras são adicionadas para incrementar o layout. Os *breakpoints* são definidos através de variáveis, facilitando futuros ajustes durante o andamento do projeto.
-  * Performance: por padrão, os arquivos CSS gerados são comprimidos, eliminando espaços e quebras de linha desnecessárias. Além disso, deixamos o código HTML preparado para que puxe o arquivo *plugins.js* visando a unificação de todos os plugins JavaScript utilizados no projeto.
+  * Mobile First + *Responsive Web Design*: framework desenvolvido com lógica para melhor performance e escabilidade de acordo com as diferentes resoluções de tela. As regras gerais são usadas por todas as telas e, a medida que for necessário, novas regras são adicionadas para incrementar o layout. Os *breakpoints* são definidos através de variáveis, facilitando futuros ajustes durante o andamento do projeto.
 
 ### Plugins recomendados
 
