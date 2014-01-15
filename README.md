@@ -3,7 +3,7 @@ framework-fed
 
 Framework FED.
 
-Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br (work in progress).
+Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br (*work in progress*).
 
 Resumo: SCSS (Compass) + Scripts locais + Responsive.
 
