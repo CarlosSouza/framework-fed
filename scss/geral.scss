@@ -60,21 +60,14 @@
   .pelicula { position: absolute; z-index: 9; }
 
   /* botões */
-  .botao,
-  .botao strong { display: inline-block; background: url(../imagens/botao.png) no-repeat; line-height: 25px; text-decoration: none; }
-  .botao { padding-left: 10px;
-    strong { padding-right: 10px; background-position: right 0; font-weight: normal; }
-    &:hover {
-      background-position: 0 0;
-      strong { background-position: right 0; }
-    }
-  } // .botao
-  button.botao::-moz-focus-inner { border: 0; padding: 0; }
+  .botao { display: inline-block;
+    &:hover { }
+  }
 
-  /* responsive video */
+  /* responsive video-embed */
   .video-embed { position: relative; height: 0; padding-top: 25px; padding-bottom: 56.25%; /* 16:9 */
     object, embed { position: absolute; top: 0; left: 0; width: 100%; }
-  } // .video
+  } // .video-embed
 
 
 /*
