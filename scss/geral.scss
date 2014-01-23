@@ -72,7 +72,7 @@
   button.botao::-moz-focus-inner { border: 0; padding: 0; }
 
   /* responsive video */
-  .video { position: relative; height: 0; padding-top: 25px; padding-bottom: 56.25%; /* 16:9 */
+  .video-embed { position: relative; height: 0; padding-top: 25px; padding-bottom: 56.25%; /* 16:9 */
     object, embed { position: absolute; top: 0; left: 0; width: 100%; }
   } // .video
 
