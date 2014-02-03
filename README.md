@@ -46,8 +46,6 @@ scss
 
 Recursos para que este framework se adeque a navegadores rudimentares:
 
-  * [css3-mediaqueries-js](https://code.google.com/p/css3-mediaqueries-js/): Possibilita o uso de Media Queries em IE5+. Dicas de uso [neste artigo](http://coding.smashingmagazine.com/2011/08/10/techniques-for-gracefully-degrading-media-queries/);
-  * [jQuery Migrate](https://github.com/jquery/jquery-migrate/): Uso da versão atual do jQuery;
   * **Conditional Comments**: item importante é o uso de classes na tag HTML para distinguir as diferentes versões do Internet Explorer. Sendo assim, ao desenvolver para versões antigas, recomenda-se o uso do seguinte código no cabeçado lhos HTMLs:
   
 ```html
@@ -57,4 +55,6 @@ Recursos para que este framework se adeque a navegadores rudimentares:
   <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
   <!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
 ```
+  * [css3-mediaqueries-js](https://code.google.com/p/css3-mediaqueries-js/): Possibilita o uso de Media Queries em IE5+. Dicas de uso [neste artigo](http://coding.smashingmagazine.com/2011/08/10/techniques-for-gracefully-degrading-media-queries/);
+  * [jQuery Migrate](https://github.com/jquery/jquery-migrate/): Uso da versão atual do jQuery;
   * [box-sizing polyfill](https://github.com/Schepp/box-sizing-polyfill): Permite uso do box-sizing no Internet Explorer 6 e 7.
