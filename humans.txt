@@ -13,7 +13,7 @@
 
 
 /* THANKS */
-  Nomes (& URL): Coopers - http://coopers.pro/
+  Coopers - http://coopers.pro/
 
 
 /* SITE */
