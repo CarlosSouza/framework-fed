@@ -33,7 +33,7 @@ scss
   * Todo construído com base no pré-processador SASS, separando o código de desenvolvimento daquele gerado para produção;
   * Em conjunto com SASS, a biblioteca Compass adiciona diversos facilitadores para criação de elementos visuais de forma intuitiva;
   * *Mobile First + Responsive Web Design*: framework desenvolvido com lógica para melhor performance e escabilidade de acordo com as diferentes resoluções de tela. As regras gerais são usadas por todas as telas e, a medida que for necessário, novas regras são adicionadas para incrementar o layout. Os *breakpoints* são definidos através de variáveis, facilitando futuros ajustes durante o andamento do projeto;
-  * Schema ready: tag *body* utilizando padrão *Schema* para classificação das páginas. Verificar documentação completa em [schema.org](http://schema.org/).
+  * *Schema ready*: tag *body* utilizando padrão *Schema* para classificação das páginas. Verificar documentação completa em [schema.org](http://schema.org/).
 
 ### Plugins recomendados
 
