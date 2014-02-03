@@ -50,7 +50,7 @@ Recursos para que este framework se adeque a navegadores rudimentares:
   * [jQuery Migrate](https://github.com/jquery/jquery-migrate/): Uso da versão atual do jQuery;
   * *Conditional comments*: item importante é o uso de classes na tag HTML para distinguir as diferentes versões do Internet Explorer. Sendo assim, ao desenvolver para versões antigas, recomenda-se o uso do seguinte código no cabeçado lhos HTMLs:
 
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
