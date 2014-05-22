@@ -7,4 +7,4 @@ fonts_dir = css_dir + "/fonts"
 
 #output_style = :compact
 output_style = :compressed
-sass_options = {:sourcemap => true}
+#sass_options = {:sourcemap => true}
